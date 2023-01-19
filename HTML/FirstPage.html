@@ -15,5 +15,11 @@
     <p>{{ ['David','Sara','Pam'][2] }}</p>
     <div>{{ message }}</div>
     <div>{{ message }}</div>
+    <div ng-controller="myControllerObj">
+      <div class="employee">
+        FirstName : {{ employee.firstName }} LastName : {{ employee.lastName }}
+        Gender : {{ employee.gender }}
+      </div>
+    </div>
   </body>
 </html>
